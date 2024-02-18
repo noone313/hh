@@ -6,7 +6,7 @@ import reservationRoute from './routes/reservationRoute.js'
 
 
 const dbConnection = () => {
-    mongoose.connect('mongodb+srv://baqerali313:baqerali123@rest.sn9qvcu.mongodb.net/rest?retryWrites=true', {
+    mongoose.connect('database_uri', {
         dbName: "rest",
       })
       .then(() => {
